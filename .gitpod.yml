@@ -1,0 +1,8 @@
+tasks:
+  - before: |
+      npm install -g @bazel/bazelisk
+      npm install -g @bazel/buildifier
+vscode:
+  extensions:
+    - BazelBuild.vscode-bazel
+    - golang.Go
